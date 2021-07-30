@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylepoint-clone</title>
+    <!-- aos stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- swiper stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- overlay -->
+    <div class="overlays first"></div>
+    <div class="overlays second center"><h1>STYLEPOINT</h1></div>
+    <div class="overlays third"></div>
+
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="container row">
+        <h1 class="logo"><a href="#">stylepoint</a></h1>
+        <div class="nav-btns row">
+          <a href="#" class="btn-1">services</a>
+          <a href="#" class="btn-1">collection</a>
+          <a href="#" class="btn-1">about us</a>
+          <a href="#" class="btn-1">blog</a>
+        </div>
+        <button type="button" class="shoping-btn">
+          <i class="fas fa-shopping-basket"></i>
+        </button>
+        <div class="hamburger-button">
+          <div class="button_container" id="toggle">
+            <span class="top"></span><span class="middle"></span
+            ><span class="bottom"></span>
+          </div>
+          <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="#home" class="btns">home</a></li>
+                <li><a href="#about" class="btns">about</a></li>
+                <li><a href="#services" class="btns">services</a></li>
+                <li><a href="#projects" class="btns">projects</a></li>
+                <li><a href="#shop" class="btns">shop</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </header>
+
+    <section class="hero section" id="home">
+      <div class="container center">
+        <h1 class="title">do you believe in style?</h1>
+        <h6 class="mini-title">scroll down</h6>
+        <a href="#about" class="scroll-btn center"
+          ><img src="./images/scroll-down.svg" alt="error"
+        /></a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container center">
+        <div
+          class="box-animation"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="900">
+          who we are?
+        </h1>
+        <p class="para" data-aos="fade-up" data-aos-duration="1200">
+          Stylepont is a team of enthusiastic stylists, photographers, and
+          make-up artists that will create a brand new total look for you!
+          Classic or street style, casual or evening: we'll dress you up and
+          make you up so that you are ready for the photoshoot of the year! Be
+          stylish, be unique with Stylepont!
+        </p>
+        <a href="#" class="btn-2" data-aos="fade-up" data-aos-duration="1500"
+          >read more</a
+        >
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container center">
+        <div
+          class="box-animation"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="900">
+          our services
+        </h1>
+        <div
+          class="services-list row"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <div class="services-card center">
+            <div class="img-box">
+              <img src="./images/slide-1.jpg" alt="error" />
+            </div>
+            <h1 class="title-2">styling</h1>
+            <p class="para">
+              Styling is a priority for stylepoint! Get to know everything about
+              it.....
+            </p>
+            <a href="#" class="btn-3"><i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="services-card center">
+            <div class="img-box">
+              <img src="./images/slide-2.jpg" alt="error" />
+            </div>
+            <h1 class="title-2">photoshoot</h1>
+            <p class="para">
+              Amazed by Vogue and ELLE photo shoots? We'll do one for you.
+            </p>
+            <a href="#" class="btn-3"><i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="services-card center">
+            <div class="img-box">
+              <img src="./images/slide-3.jpg" alt="error" />
+            </div>
+            <h1 class="title-2">make up</h1>
+            <p class="para">
+              Wake up and make up! Or our specialists will take care of it....
+            </p>
+            <a href="#" class="btn-3"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="container center">
+        <div
+          class="box-animation"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="900">
+          featured project
+        </h1>
+        <div
+          class="project-list row"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <div class="projects-pic"></div>
+          <div class="project-info">
+            <div class="img-box">
+              <img
+                src="./images/project-pic.jpg"
+                alt="error"
+                class="project-picture"
+              />
+            </div>
+            <h4>photo</h4>
+            <h1 class="title-2">dallas girl</h1>
+            <p class="para">by alex white</p>
+            <a href="#" class="btn-3"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expert" id="expert">
+      <div class="container center">
+        <div
+          class="box-animation"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="900">
+          top expert
+        </h1>
+        <div
+          class="expert-list row"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="expert-card">
+            <div class="img-box">
+              <img src="./images/expert-1.png" alt="error" class="expert-pic" />
+            </div>
+            <h1 class="title-2">any lynch</h1>
+            <h4>make up artist</h4>
+            <p class="para">
+              Unique make up styles and looks are a matter of pleasure for our
+              voguish master!
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-btns"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-btns"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+              <a href="#" class="social-btns"><i class="fab fa-vimeo-v"></i></a>
+              <a href="#" class="social-btns"><i class="fab fa-behance"></i></a>
+            </div>
+            <a href="#" class="btn-2">discover</a>
+          </div>
+          <div class="expert-card">
+            <div class="img-box">
+              <img src="./images/expert-2.png" alt="error" class="expert-pic" />
+            </div>
+            <h1 class="title-2">Nick Cave</h1>
+            <h4>photographer</h4>
+            <p class="para">
+              Lights, camera, action! Nick will capture the best moments during
+              your photoshoot.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-btns"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-btns"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+              <a href="#" class="social-btns"><i class="fab fa-vimeo-v"></i></a>
+              <a href="#" class="social-btns"><i class="fab fa-behance"></i></a>
+            </div>
+            <a href="#" class="btn-2">discover</a>
+          </div>
+
+          <div class="expert-card">
+            <div class="img-box">
+              <img src="./images/expert-3.png" alt="error" class="expert-pic" />
+            </div>
+            <h1 class="title-2">anna ruso</h1>
+            <h4>stylist</h4>
+            <p class="para">
+              Classy young lady, or confident street style queen? Anna will
+              choose the best outfit!
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-btns"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-btns"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+              <a href="#" class="social-btns"><i class="fab fa-vimeo-v"></i></a>
+              <a href="#" class="social-btns"><i class="fab fa-behance"></i></a>
+            </div>
+            <a href="#" class="btn-2">discover</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="container center">
+        <div
+          class="box-animation"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        ></div>
+        <h1 class="title" data-aos="fade-up" data-aos-duration="900">
+          get the look
+        </h1>
+        <div class="item-list" data-aos="fade-up" data-aos-duration="1200">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/slider-1.jpg" alt="error" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-2.jpg" alt="error" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-3.jpg" alt="error" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider-4.jpg" alt="error" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <a href="#" class="btn-2" data-aos="fade-up" data-aos-duration="800"
+          >shop now</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="container center">
+        <div class="foot-1 row">
+          <a href="#" class="social-btn">Facebook</a>
+          <a href="#" class="social-btn">Twitter</a>
+          <a href="#" class="social-btn">Linkedin</a>
+          <a href="#" class="social-btn">Instagram</a>
+        </div>
+        <div class="foot-2 row">
+          <a href="#" class="social-btn">Home</a>
+          <a href="#" class="social-btn">Services</a>
+          <a href="#" class="social-btn">Collection</a>
+          <a href="#" class="social-btn">About Us</a>
+          <a href="#" class="social-btn">Blog</a>
+          <a href="#" class="social-btn">Privacy Policy</a>
+          <a href="#" class="social-btn">Terms and Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/68f941b034.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- three js -->
+    <script src="./javascript/three.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <!-- hover effect js -->
+    <script src="./javascript/hover-effect.umd.js"></script>
+    <script>
+      var myAnimation = new hoverEffect({
+        parent: document.querySelector(".projects-pic"),
+        intensity: 0.3,
+        image1: "./images/girl1.jpg",
+        image2: "./images/girl2.jpg",
+        displacementImage: "./images/displacement/13.jpg",
+        imagesRatio: 400 / 350,
+      });
+    </script>
+    <!-- swiper js CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var mySwiper = new Swiper(".item-list", {
+        loop: false,
+        speed: 1000,
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "5",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 100,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- main js file -->
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
